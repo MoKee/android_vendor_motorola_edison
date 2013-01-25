@@ -123,13 +123,14 @@ $(VENDOR_BLOB_FOLDER)/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 $(VENDOR_BLOB_FOLDER)/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 $(VENDOR_BLOB_FOLDER)/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-$(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so
+$(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so \
+$(VENDOR_BLOB_FOLDER)/lib/libat.so:/system/lib/libat.so
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gps.p3.so:/system/lib/hw/gps.p3.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gralloc.default.so:/system/lib/hw/gralloc.default.so \
-$(VENDOR_BLOB_FOLDER)/lib/hw/sensors.p3.so:/system/lib/hw/sensors.p3.so 
+$(VENDOR_BLOB_FOLDER)/lib/hw/sensors.p3.so:/system/lib/hw/sensors.p3.so
 
 # system/xbin
 PRODUCT_COPY_FILES += \
