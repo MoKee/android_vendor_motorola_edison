@@ -1,9 +1,9 @@
 VENDOR_BLOB_FOLDER := vendor/motorola/edison/proprietary
 
-# system/vendor
+# system/lib
 #PRODUCT_COPY_FILES += \
-#$(VENDOR_BLOB_FOLDER)/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
-#$(VENDOR_BLOB_FOLDER)/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so
+#    $(VENDOR_BLOB_FOLDER)/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
+#    $(VENDOR_BLOB_FOLDER)/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
 
 # system/etc/omapcam
 PRODUCT_COPY_FILES += \
@@ -72,4 +72,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/etc/omapcam/module1_ee/cid1039_ov8820_ducati_gamma.bin:system/etc/omapcam/module1_ee/cid1039_ov8820_ducati_gamma.bin \
     $(VENDOR_BLOB_FOLDER)/etc/omapcam/module1_ee/cid1039_ov8820_ipipe_ee_dcc.bin:system/etc/omapcam/module1_ee/cid1039_ov8820_ipipe_ee_dcc.bin \
     $(VENDOR_BLOB_FOLDER)/etc/omapcam/module1_ee/cid1039_ov8820_ducati_nsf_ldc.bin:system/etc/omapcam/module1_ee/cid1039_ov8820_ducati_nsf_ldc.bin
+
+# system/etc/omapcam/module2
+PRODUCT_COPY_FILES += \
+    $(VENDOR_BLOB_FOLDER)/etc/omapcam/module2/cid1040_ov7739_sensor_config_dcc.bin:system/etc/omapcam/module2/cid1040_ov7739_sensor_config_dcc.bin
 
