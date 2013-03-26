@@ -1,6 +1,6 @@
 VENDOR_BLOB_FOLDER := vendor/motorola/edison/proprietary
 
-# system/lib
+# system/vendor
 #PRODUCT_COPY_FILES += \
 #$(VENDOR_BLOB_FOLDER)/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
 #$(VENDOR_BLOB_FOLDER)/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so
@@ -75,5 +75,5 @@ PRODUCT_COPY_FILES += \
 
 # system/etc/omapcam/module2
 PRODUCT_COPY_FILES += \
-    $(VENDOR_BLOB_FOLDER)/etc/omapcam/module2/cid1040_ov7739_sensor_config_dcc.bin:system/etc/omapcam/module2/cid1040_ov7739_sensor_config_dcc.bin
+    $(VENDOR_BLOB_FOLDER)/etc/omapcam/module2/cid1044_mt9m114_sensor_config_dcc.bin:system/etc/omapcam/module2/cid1044_mt9m114_sensor_config_dcc.bin
 
